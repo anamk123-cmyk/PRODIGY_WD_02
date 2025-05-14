@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Stopwatch</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Stopwatch</h1>
+    <div class="timer">00:00:00</div>
+    <div class="buttons">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+      <button id="lap">Lap</button>
+      <button id="export">Export Laps</button>
+      <button id="themeToggle">Toggle Theme</button>
+    </div>
+    <ul id="laps"></ul>
+  </div>
+
+  <!-- Optional lap sound -->
+  <audio id="lapSound" src="https://actions.google.com/sounds/v1/cartoon/wood_plank_flicks.ogg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
